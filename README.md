@@ -8,3 +8,7 @@
   - useMemo
   - useReducer
   - useContext
+
+  ## ブランチの切り方
+  学習内容ごとに`develop`からブランチを切る
+  `feature`/ブランチ名
