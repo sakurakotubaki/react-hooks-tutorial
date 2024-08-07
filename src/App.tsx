@@ -1,10 +1,10 @@
-import JsonPlaceHolder from "./useEffect/JsonPlaceHolder"
+import CountMemo from "./memo/CountMemo"
 
 function App() {
 
   return (
     <>
-      <JsonPlaceHolder />
+      <CountMemo />
     </>
   )
 }
