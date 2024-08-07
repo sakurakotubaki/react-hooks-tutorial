@@ -12,3 +12,9 @@
   ## ブランチの切り方
   学習内容ごとに`develop`からブランチを切る
   `feature`/ブランチ名
+
+## Reduxを使う
+
+```shell
+npm install @reduxjs/toolkit react-redux
+```
