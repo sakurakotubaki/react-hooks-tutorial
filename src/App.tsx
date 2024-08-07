@@ -1,12 +1,11 @@
-import CounterReducer from "./useReducer/counterReducer"
+import { Counter } from "./redux/features/counter/Counter";
 
 function App() {
-
   return (
-    <>
-      <CounterReducer />
-    </>
-  )
+    <div className="App">
+      <Counter />
+    </div>
+  );
 }
 
-export default App
+export default App;
