@@ -1,10 +1,10 @@
-import CountCallback from "./useCallback/CountCallback"
+import CounterReducer from "./useReducer/counterReducer"
 
 function App() {
 
   return (
     <>
-      <CountCallback />
+      <CounterReducer />
     </>
   )
 }
