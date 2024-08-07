@@ -1,10 +1,10 @@
-import CountMemo from "./memo/CountMemo"
+import CountCallback from "./useCallback/CountCallback"
 
 function App() {
 
   return (
     <>
-      <CountMemo />
+      <CountCallback />
     </>
   )
 }
