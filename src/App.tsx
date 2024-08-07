@@ -1,9 +1,9 @@
-import { Counter } from "./redux/features/counter/Counter";
+import HookForm from "./react-hook-form/HookForm";
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <HookForm />
     </div>
   );
 }
