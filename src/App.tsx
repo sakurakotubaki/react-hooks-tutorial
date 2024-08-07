@@ -1,10 +1,10 @@
-import Timeout from "./useState/Timeout"
+import JsonPlaceHolder from "./useEffect/JsonPlaceHolder"
 
 function App() {
 
   return (
     <>
-      <Timeout />
+      <JsonPlaceHolder />
     </>
   )
 }
