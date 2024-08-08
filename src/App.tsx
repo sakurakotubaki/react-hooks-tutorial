@@ -1,9 +1,9 @@
-import HookForm from "./react-hook-form/HookForm";
+import ButtonStyle from "./styled-components/ButtonStyle";
 
 function App() {
   return (
     <div className="App">
-      <HookForm />
+      <ButtonStyle />
     </div>
   );
 }
