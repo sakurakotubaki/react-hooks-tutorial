@@ -1,9 +1,9 @@
-import ComboBox from "./muiComponent/ComboBox";
+import StopWatch from "./stopWatch/StopWatch";
 
 function App() {
   return (
     <div className="App">
-      <ComboBox />
+      <StopWatch />
     </div>
   );
 }
