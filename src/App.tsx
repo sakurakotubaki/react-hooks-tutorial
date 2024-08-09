@@ -1,9 +1,9 @@
-import StopWatch from "./stopWatch/StopWatch";
+import DateTimeRef from "./useRef/DateTimeRef";
 
 function App() {
   return (
     <div className="App">
-      <StopWatch />
+      <DateTimeRef />
     </div>
   );
 }
