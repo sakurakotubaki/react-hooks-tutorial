@@ -1,9 +1,9 @@
-import HookForm from "./react-hook-form/HookForm";
+import WeatherCard from "./styled-components/Weather";
 
 function App() {
   return (
     <div className="App">
-      <HookForm />
+      <WeatherCard />
     </div>
   );
 }
