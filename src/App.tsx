@@ -1,9 +1,9 @@
-import DateTimeRef from "./useRef/DateTimeRef";
+import Goast from "./redux/features/counter/Goast";
 
 function App() {
   return (
     <div className="App">
-      <DateTimeRef />
+      <Goast />
     </div>
   );
 }

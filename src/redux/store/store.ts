@@ -1,9 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit'
 import counterReducer from '../features/counter/counterSlice'
+import goastReducer from '../features/goast/goastSlice'
 
 export const store = configureStore({
   reducer: {
     counter: counterReducer,
+    goast: goastReducer,
   },
 })
 
