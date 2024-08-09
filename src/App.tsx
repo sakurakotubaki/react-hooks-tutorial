@@ -1,9 +1,9 @@
-import ButtonStyle from "./styled-components/ButtonStyle";
+import WeatherCard from "./styled-components/Weather";
 
 function App() {
   return (
     <div className="App">
-      <ButtonStyle />
+      <WeatherCard />
     </div>
   );
 }
