@@ -1,9 +1,9 @@
-import WeatherCard from "./styled-components/Weather";
+import ComboBox from "./muiComponent/ComboBox";
 
 function App() {
   return (
     <div className="App">
-      <WeatherCard />
+      <ComboBox />
     </div>
   );
 }
