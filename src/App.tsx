@@ -1,9 +1,9 @@
-import Goast from "./redux/features/counter/Goast";
+import Editor from "./lexical/Editor";
 
 function App() {
   return (
     <div className="App">
-      <Goast />
+      <Editor />
     </div>
   );
 }
