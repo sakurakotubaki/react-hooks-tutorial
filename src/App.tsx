@@ -1,9 +1,9 @@
-import ComboBox from "./muiComponent/ComboBox";
+import Editor from "./lexical/Editor";
 
 function App() {
   return (
     <div className="App">
-      <ComboBox />
+      <Editor />
     </div>
   );
 }
