@@ -1,9 +1,10 @@
-import Editor from "./lexical/Editor";
+import SortableList from "./dndkit/SortableList";
 
 function App() {
   return (
     <div className="App">
-      <Editor />
+      <h1>Sortable List Example</h1>
+      <SortableList />
     </div>
   );
 }
