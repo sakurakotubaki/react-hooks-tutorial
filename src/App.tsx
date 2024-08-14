@@ -1,9 +1,23 @@
-import Editor from "./lexical/Editor";
+import { useQuery } from "@apollo/client";
+
+import "./App.css";
+import Film from "./Film";
+import { AllFilmsWithVariablesQueryDocument } from "./gql/graphql";
 
 function App() {
+  // `data` is typed!
+  const { data } = useQuery(AllFilmsWithVariablesQueryDocument, {
+    variables: { first: 10 },
+  });
   return (
     <div className="App">
-      <Editor />
+      {data && (
+        <ul>
+          {data.allFilms?.edges?.map(
+            (e, i) => e?.node && <Film film={e?.node} key={`film-${i}`} />
+          )}
+        </ul>
+      )}
     </div>
   );
 }
