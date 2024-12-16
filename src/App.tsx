@@ -1,9 +1,9 @@
-import Editor from "./lexical/Editor";
+import StateForm from "./useState/StateForm";
 
 function App() {
   return (
     <div className="App">
-      <Editor />
+      <StateForm />
     </div>
   );
 }
